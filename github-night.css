@@ -782,8 +782,9 @@ p.mathjax-block, .mathjax-block {
 
 .md-image>img {
   margin-top: 2px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+  border-radius: 6px;
 }
 
 .md-image>.md-meta:first-of-type:before {
