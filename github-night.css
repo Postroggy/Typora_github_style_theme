@@ -1,6 +1,11 @@
 /*
-Theme Name: github_dark_mode_style_theme
-Theme URI: https://github.com/Postroggy/Typora_github_style_theme
+Theme Name: Github Night
+Theme URI: https://github.com/kinoute/typora-github-night-theme
+Authors: Yann Defretin, Github Team
+Author URI: https://github.com/kinoute
+Description: A Typora theme that uses Github Dark Color Scheme.
+Version: 0.2.5
+Tags: dark, github, typora
 */
 
 /* nunito-sans-regular - latin-ext_latin */
@@ -566,9 +571,8 @@ code {
 }
 
 .md-mathjax-midline {
-  background: #fafafa;
+  background: #ece8e8;
 }
-
 .md-image>.md-meta {
   border-radius: 3px;
   color: inherit;
@@ -713,7 +717,9 @@ blockquote, blockquote p {
 
 /* Inline Math Editing */
 .md-inline-math script {
-  color: #f9826c;
+  color: #f88e15;
+  font-size: 1.5rem;
+  background-color: #14cf3d3d;
 }
 
 .md-math-tex inline-math-svg {
@@ -741,11 +747,13 @@ blockquote, blockquote p {
 /* Inline Math */
 .MathJax_SVG {
   font-size: 1.4rem;
+  /* font-size: 3rem; */
 }
 
 .MathJax_SVG:focus {
     outline: none;
     background-color: transparent;
+    /* background-color: red; */
 }
 
 .md-rawblock>.md-rawblock-container {
@@ -773,6 +781,12 @@ p.mathjax-block, .mathjax-block {
 .mathjax-block>.code-tooltip {
   bottom: 5px;
   box-shadow: none;
+}
+.MathJax{
+  font-size: 24px;
+  background-color:rgba(13, 195, 219, 0.205);
+  border-radius: 10px;
+  padding: 0 2px;
 }
 
 .md-image>.md-meta {
