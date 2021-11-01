@@ -115,6 +115,13 @@ Tags: dark, github, typora
 
 }
 
+/* 为图片创建题注（编号）
+使用方法 <center>Fig.0.1</center>
+*/
+center{
+  color:#C0C0C0;
+  text-decoration:underline
+}
 .pane-group {
   background-color: var(--bg-color);
 }
