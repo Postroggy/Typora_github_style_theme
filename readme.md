@@ -4,5 +4,7 @@
 # Demo
 ![img](https://github.com/Postroggy/Typora_github_style_theme/blob/master/img/demo.png)
 # 新增样式
-`<center>Fig.01</center>`
-为图片创建标注
+- `<center>Fig.01</center>`
+    为图片创建标注  
+- 粗体字体稍微变大一点点，字体改为红色的，斜体的改为蓝色。
+
