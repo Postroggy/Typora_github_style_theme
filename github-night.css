@@ -122,6 +122,19 @@ center{
   color:#C0C0C0;
   text-decoration:underline
 }
+
+/*
+粗体字的font-weight要改的稍微大一点，要不然都不突出 
+ */
+strong{
+  font-weight: 800;
+  font-size: larger;
+  color: rgba(252, 61, 61, 0.952);
+}
+/* 斜体字变成蓝色的吧 */
+em{
+  color: rgb(18, 177, 240);
+}
 .pane-group {
   background-color: var(--bg-color);
 }
